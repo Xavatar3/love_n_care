@@ -1,0 +1,41 @@
+body,header,section,main{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+a{
+    color: #f42;
+    text-decoration: none;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+}
+#image_sector{
+    margin: 0px;
+    padding: 1% 0px;
+}
+#image_sector img{
+    border-radius: 1%;
+    width: 100%;
+}
+.load{
+    border: solid 5px black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    bottom: 10%;
+    height: 15px;
+    width: 15px;
+}
+#donate{
+    background-color: #f42;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 31%;
+    height: 50px;
+    width: 150px;
+}
+/*main *{border: solid 1px black;}*/
