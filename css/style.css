@@ -1,4 +1,5 @@
 body,header,section,main{
+    font-size: 1.1em;;
     padding: 0px;
     margin: 0px;
     user-select: none;
@@ -29,13 +30,17 @@ a{
     height: 15px;
     width: 15px;
 }
+#donater{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 #donate{
     background-color: #f42;
+    font-size: inherit;
     border: none;
     border-radius: 10px;
-    position: relative;
-    left: 31%;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 180px;
 }
 /*main *{border: solid 1px black;}*/
