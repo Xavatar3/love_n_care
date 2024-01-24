@@ -15,20 +15,21 @@ a{
     text-decoration: none;
 }
 h1{
-    font-size: 27px;
     color: #d20;
 }
 h2{
-    font-size: 27px;
+    font-size: 2.8em;
     color: #f42;
 }
 #heading{
     background-color: #fff;
+    font-size: 2.0em;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
-    height: 50px;
+    padding-top: 2%;
+    height: 100px;
     width: 100%;;
 }
 #space{
@@ -40,6 +41,15 @@ h2{
 }
 .par{
     padding: 7px;
+}
+.par p{
+    color: green;
+    font-size: 2.5em;
+    line-height: 1.7em;
+}
+#support_vid video{
+    border-radius: 10px;
+    width: 100%
 }
 #image_sector{
     margin: 0px;
@@ -61,7 +71,7 @@ h2{
 }
 #image img{
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(30, 150, 200, 0.4);
+    box-shadow: 0 0 20px rgba(200, 70, 30, 0.4);
     object-fit: cover;
     width: 100%;
 }
@@ -73,7 +83,7 @@ h2{
     display: flex;
     position: relative;
     justify-content: space-between;
-    bottom: 250px;
+    bottom: 550px;
 }
 #controls button{
     background-color: #fff6;
@@ -81,8 +91,8 @@ h2{
     font-size: 150%;
     border: none;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 180px;
+    width: 180px;
 }
 #loader{
     display: flex;
@@ -112,12 +122,15 @@ h2{
     justify-content: center;
     width: 100%;
 }
+#donater a{
+    width: 50%;
+}
 #donate{
     background-color: #f42;
-    font-size: inherit;
+    font-size: 2.3em;
     border: none;
-    border-radius: 10px;
-    height: 60px;
-    width: 180px;
+    border-radius: 20px;
+    height: 160px;
+    width: 100%;
 }
-/*#image,#image *,footer{border: solid 3px black;}*/
+/*#heading,#heading *{border: solid 3px black;}*/
