@@ -1,24 +1,45 @@
-body,header,main{
-    font-size: 28px;
-    line-height: 40px;
+*{
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
     user-select: none;
+}
+body,header,main{
+    font-size: 21px;
+    line-height: 46px;
+}
+body{
+    padding: 0;
+    margin: 0;
 }
 a{
     color: #f42;
     text-decoration: none;
 }
 h1{
+    font-size: 27px;
     color: #d20;
 }
 h2{
+    font-size: 27px;
     color: #f42;
 }
 #heading{
+    background-color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;;
+}
+#space{
+    height: 50px;
+}
+#heading > *{
+    padding: 0;
+    margin: 0;
+}
+.par{
+    padding: 7px;
 }
 #image_sector{
     margin: 0px;
@@ -31,11 +52,37 @@ h2{
 #gallery{
     width: 100%;
 }
-#gallery section,img{
+#gallery section{
+    height: 100;
     width: 100%;
 }
+#image{
+    padding: 3px;
+}
 #image img{
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(30, 150, 200, 0.4);
+    object-fit: cover;
+    width: 100%;
+}
+#controls{
+    position: absolute;
+    height: 0;
+}
+#controls > section{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    bottom: 250px;
+}
+#controls button{
+    background-color: #fff6;
+    color: #fff9;
+    font-size: 150%;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 }
 #loader{
     display: flex;
@@ -51,7 +98,7 @@ h2{
     bottom: 10px;
 }
 .load{
-    border: solid 3px #fff8;
+    border: solid 3px #f998;
     border-radius: 50%;
     display: inline-block;
     position: relative;
@@ -73,4 +120,4 @@ h2{
     height: 60px;
     width: 180px;
 }
-/*#image_sector,#loader,#loader *{border: solid 1px black;}*/
+/*#image,#image *,footer{border: solid 3px black;}*/
